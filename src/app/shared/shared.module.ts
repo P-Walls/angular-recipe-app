@@ -6,25 +6,21 @@ import { LoadingSpinnerComponent } from "./loading-spinner/loading-spinner.compo
 import { PlaceholderDirective } from "./placeholder/placeholder.directive";
 
 @NgModule({
-  declarations: [
-    AlertComponent,
-    LoadingSpinnerComponent,
-    PlaceholderDirective,
-    DropdownDirective
-  ],
-  imports: [
-    CommonModule,
-  ],
-  exports: [
-    AlertComponent,
-    LoadingSpinnerComponent,
-    PlaceholderDirective,
-    DropdownDirective,
-    CommonModule
-  ],
-  entryComponents: [
-    //this is unnecessary for Angular 9 or higher
-    AlertComponent,
-  ],
+    declarations: [
+        AlertComponent,
+        LoadingSpinnerComponent,
+        PlaceholderDirective,
+        DropdownDirective
+    ],
+    imports: [
+        CommonModule,
+    ],
+    exports: [
+        AlertComponent,
+        LoadingSpinnerComponent,
+        PlaceholderDirective,
+        DropdownDirective,
+        CommonModule
+    ]
 })
 export class SharedModule {}
